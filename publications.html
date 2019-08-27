@@ -60,16 +60,26 @@
 					<!-- Project block -->
 					<div class="row">
 						<div class="col-lg-6 project-left">
-							<div class="single-project pb-100"> 
-								<h4 class="pt-100 pb-30"><a href="#">Calibration 3D print</a></h4>
+							<div class="single-project"> 
+								<h4 class="pb-20"><a href="#">Intensity Mapping for Mask Projection based Photopolymerization</a></h4>
 								<p>
-									It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its popularity and technological.
+									Currently, the industrial de-facto assumption for photopolymerizationsystems is that the ultraviolet light of the mask-projection is uniformly distributed. This paper presents a method for measuring this intensity field or distribution of this mask-projection. By measuring the light distribution, it is shown that the emitted light is not uniformly distributed and thus the current assumption is invalid. Furthermore, a methodology for obtaining a mask to compensate for the irregularities of the projected light, that will ensure an even and controlled exposure of the photopolymer, is presented. Accordingly, it is demonstrated that this mask compensates for such irregularities, making the light projection significantly more uniformly distributed.
 								</p>
+
+								<p>
+									Frederik Warburg, Macarena M. Ribo, Andrea Luongo, Anna H. Danielak, and David B. Pedersen
+								</p>
+
+								<h2 style="word-spacing: 0.5em">
+								<a href="http://github.com/frederikwarburg/relative_normalization_methods"><i class="fa fa-github"></i></a>
+
+								<a href="https://github.com/FrederikWarburg/relative_normalization_methods/blob/master/Intensity_Mapping_for_Mask_Projection_based_Photopolymerization.pdf"><i class="fa fa-sticky-note"></i></a>
+								</h2>
 							</div>
 						</div>
-						<div class="col-lg-6 project-right">
-							<div class="single-project pb-100">
-								<img class="img-fluid" src="img/l1.jpg" alt="">
+						<div class="col-lg-6 project-right ">
+							<div class="single-project">
+								<img class="img-fluid" src="img/IntensityPaper.png" alt="">
 							</div>						
 						</div>
 					</div>
@@ -77,16 +87,24 @@
 					<!-- Project block -->
 					<div class="row">
 						<div class="col-lg-6 project-left">
-							<div class="single-project pb-100">
-								<img class="img-fluid" src="img/l1.jpg" alt="">
+							<div class="single-project pt-50">
+								<img class="img-fluid" src="img/Unet.png" alt="">
 							</div>						
 						</div>
 						<div class="col-lg-6 project-right">
-							<div class="single-project pb-100"> 
-								<h4 class="pt-100 pb-30"><a href="#">Burst Image Implementation</a></h4>
+							<div class="single-project pt-50"> 
+								<h4 class="pb-30"><a href="#">Burst Image Deblurring (re-Implementation)</a></h4>
 								<p>
-									It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its popularity and technological.
+									PyTorch implementations of Burst Image Deblurring Using Permutation Invariant Convolutional Neural Networks
 								</p>
+
+								<p>
+									The network takes a n long sequence of burst images and outputs 1 sharper image. Each burst image is fed through a siamese Unet with skip connections. After each convelutional block a global max pooling is applied to gather information accross multiple images in the burst image sequence. After the tracks the feature maps are collapsed to a cleaner output image.
+								</p>
+
+								<h2 style="word-spacing: 0.5em">
+								<a href="https://github.com/FrederikWarburg/Burst-Image-Deblurring"><i class="fa fa-github"></i></a>
+								</h2>
 							</div>
 						</div>
 					</div>
@@ -94,16 +112,24 @@
 					<!-- Project block -->
 					<div class="row">
 						<div class="col-lg-6 project-left">
-							<div class="single-project pb-100"> 
-								<h4 class="pt-100 pb-30"><a href="#">TI-Transform Implementation</a></h4>
+							<div class="single-project pt-50"> 
+								<h4 class="pb-30"><a href="#">TI-Transform Implementation (re-implementation)</a></h4>
 								<p>
-									It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its popularity and technological.
+									PyTorch implementations of TI-pooling (transformation-invariant pooling) from "TI-pooling: transformation-invariant pooling for feature learning in Convolutional Neural Networks" 
 								</p>
+
+								<p>
+									TI-pooling is a simple technique that allows to make a Convolutional Neural Networks (CNN) transformation-invariant. I.e. given a set of nuisance transformations (such as rotations, scale, shifts, illumination changes, etc.), TI-pooling guarantees that the output of the network will not to depend on whether the input image was transformed or not.
+								</p>
+
+								<h2 style="word-spacing: 0.5em">
+								<a href="https://github.com/FrederikWarburg/TI-pooling-pytorch"><i class="fa fa-github"></i></a>
+								</h2>
 							</div>
 						</div>
 						<div class="col-lg-6 project-right">
-							<div class="single-project pb-100">
-								<img class="img-fluid" src="img/l1.jpg" alt="">
+							<div class="single-project pt-50">
+								<img class="img-fluid" src="img/TIpool.png" alt="">
 							</div>						
 						</div>
 					</div>
@@ -111,16 +137,28 @@
 					<!-- Project block -->
 					<div class="row">
 						<div class="col-lg-6 project-left">
-							<div class="single-project pb-100">
-								<img class="img-fluid" src="img/l1.jpg" alt="">
+							<div class="single-project pt-50">
+								<img class="img-fluid" src="img/Railroad.png" alt="">
 							</div>						
 						</div>
 						<div class="col-lg-6 project-right">
-							<div class="single-project pb-100"> 
-								<h4 class="pt-100 pb-30"><a href="#">Object Detection & Depth Estimation</a></h4>
+							<div class="single-project pt-50"> 
+								<h4 class="pb-30"><a href="#">Object Detection imposed on Unsupervised Depth Estimates</a></h4>
 								<p>
-									It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its popularity and technological.
+									This project seeks to estimate the 3D position of railroad furniture. The project consists of two parts:
 								</p>
+								<p>
+									1) Adapt and train a 2D object detection model - that takes an image as input and outputs a 2D bounding box together with class label for each object of interest in the image - for the entire Railroad dataset. Evaluate the performance of the trained model and investigate the causes of errors.
+								</p>
+								<p>
+									2) Estimation of a dense depth map that allow COWI to measure the 3D positions of the detected objects. Adapt a model to infer depth predictions based on sequences of images and demonstrate how this depth information can be used to obtain 3D information about the detected objects. Evaluate the performance of the depth estimations.
+								</p>
+
+								<h2 style="word-spacing: 0.5em">
+								<a href="img/Computer_Vision_for_Railroad_Asset_Detection.pdf"><i class="fa fa-sticky-note"></i></a>
+
+								<a href="https://www.dropbox.com/sh/31haxfnn7c807f7/AAAui9ItaPF0Tn7t77bFmVcUa?dl=0"><i class="fa fa-youtube-play"></i></a>
+								</h2>
 							</div>
 						</div>
 					</div>
@@ -128,22 +166,27 @@
 					<!-- Project block -->
 					<div class="row">
 						<div class="col-lg-6 project-left">
-							<div class="single-project pb-100"> 
-								<h4 class="pt-100 pb-30"><a href="#">EKF SLAM for eye wear (Bsc. Thesis)</a></h4>
+							<div class="single-project pt-50"> 
+								<h4 class="pb-30"><a href="#">EKF SLAM for eye wear (Bsc. Thesis)</a></h4>
 								<p>
-									It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its popularity and technological.
+									The objective of this thesis is to adapt and test how well an open source SLAM implementation works with data recorded from the Tobii Pro Glasses 2. The report investigates all aspects of the Extended Kalman Filter (EKF) SLAM method for data recorded with the Tobii Pro Glasses 2.
 								</p>
+								<h2 style="word-spacing: 0.5em">
+								<a href="img/Bachelor_thesis.pdf"><i class="fa fa-sticky-note"></i></a>
+								</h2>
 							</div>
 						</div>
 						<div class="col-lg-6 project-right">
-							<div class="single-project pb-100">
-								<img class="img-fluid" src="img/l1.jpg" alt="">
+							<div class="single-project pt-50">
+								<img class="img-fluid" src="img/Tobiiglasses.png" alt="">
 							</div>						
 						</div>
 					</div>
 				</div>	
 			</section>
 			<!-- End project Area -->
+
+
 
 			<!-- start footer Area -->		
 			<footer class="footer-area section-gap">
