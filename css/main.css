@@ -2335,6 +2335,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f9f9ff;
 }
 
+.project-area-white {
+  background-color: #ffffff;
+}
+
 .single-project a {
   color: #000;
 }
