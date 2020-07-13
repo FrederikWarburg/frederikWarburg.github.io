@@ -1,0 +1,246 @@
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/fav.png">
+		<!-- Author Meta -->
+		<meta name="author" content="colorlib">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Frederik Warburg | Publications </title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/magnific-popup.css">
+			<link rel="stylesheet" href="css/owl.carousel.css">
+			<link rel="stylesheet" href="css/main.css">
+		</head>
+		<body>
+		<!-- start banner Area -->
+		<section class="banner-area" id="home">
+
+			<!-- Start Header Area -->
+			<header class="default-header">
+				<nav class="navbar navbar-expand-lg  navbar-light">
+					<div class="container">
+						  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						    <span class="text-white lnr lnr-menu"></span>
+						  </button>
+
+						  <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+						    <ul class="navbar-nav">
+						    	<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="publications.html">Publications</a></li>
+								<li><a href="projects.html">Projects</a></li>
+								<li><a href="media.html">Media</a></li>	
+						    </ul>
+						  </div>						
+					</div>
+				</nav>
+			</header>
+			<!-- End Header Area -->
+
+			<!-- Start project Area -->
+			<section class="project-area-white section-gap" id="project">
+				<div class="container">	
+					<div class="container mx-auto text-black pt-40 pb-60">	
+						<h3 style="text-align: center">Projects</h3>
+					</div>
+
+					
+					<!-- Project block -->
+					<div class="row">
+						<div class="col-lg-6 project-left">
+							<div class="single-project pt-50">
+								<img class="img-fluid" src="img/Unet.png" alt="">
+							</div>						
+						</div>
+						<div class="col-lg-6 project-right">
+							<div class="single-project pt-50"> 
+								<h4 class="pb-30"><a href="#">Burst Image Deblurring (re-Implementation)</a></h4>
+								<p>
+									PyTorch implementations of Burst Image Deblurring Using Permutation Invariant Convolutional Neural Networks
+								</p>
+
+								<p>
+									The network takes a n long sequence of burst images and outputs 1 sharper image. Each burst image is fed through a siamese Unet with skip connections. After each convelutional block a global max pooling is applied to gather information accross multiple images in the burst image sequence. After the tracks the feature maps are collapsed to a cleaner output image.
+								</p>
+
+								<h2 style="word-spacing: 0.5em">
+								<a href="https://github.com/FrederikWarburg/Burst-Image-Deblurring"><i class="fa fa-github"></i></a>
+								</h2>
+							</div>
+						</div>
+					</div>
+
+					<!-- Project block -->
+					<div class="row">
+						<div class="col-lg-6 project-left">
+							<div class="single-project pt-50"> 
+								<h4 class="pb-30"><a href="#">TI-Transform Implementation (re-implementation)</a></h4>
+								<p>
+									PyTorch implementations of TI-pooling (transformation-invariant pooling) from "TI-pooling: transformation-invariant pooling for feature learning in Convolutional Neural Networks" 
+								</p>
+
+								<p>
+									TI-pooling is a simple technique that allows to make a Convolutional Neural Networks (CNN) transformation-invariant. I.e. given a set of nuisance transformations (such as rotations, scale, shifts, illumination changes, etc.), TI-pooling guarantees that the output of the network will not to depend on whether the input image was transformed or not.
+								</p>
+
+								<h2 style="word-spacing: 0.5em">
+								<a href="https://github.com/FrederikWarburg/TI-pooling-pytorch"><i class="fa fa-github"></i></a>
+								</h2>
+							</div>
+						</div>
+						<div class="col-lg-6 project-right">
+							<div class="single-project pt-50">
+								<img class="img-fluid" src="img/TIpool.png" alt="">
+							</div>						
+						</div>
+					</div>
+
+					<!-- Project block -->
+					<div class="row">
+						<div class="col-lg-6 project-left">
+							<div class="single-project pt-50">
+								<img class="img-fluid" src="img/Railroad.png" alt="">
+							</div>						
+						</div>
+						<div class="col-lg-6 project-right">
+							<div class="single-project pt-50"> 
+								<h4 class="pb-30"><a href="#">Object Detection imposed on Unsupervised Depth Estimates</a></h4>
+								<p>
+									This project seeks to estimate the 3D position of railroad furniture. The project consists of two parts:
+								</p>
+								<p>
+									1) Adapt and train a 2D object detection model - that takes an image as input and outputs a 2D bounding box together with class label for each object of interest in the image - for the entire Railroad dataset. Evaluate the performance of the trained model and investigate the causes of errors.
+								</p>
+								<p>
+									2) Estimation of a dense depth map that allow COWI to measure the 3D positions of the detected objects. Adapt a model to infer depth predictions based on sequences of images and demonstrate how this depth information can be used to obtain 3D information about the detected objects. Evaluate the performance of the depth estimations.
+								</p>
+
+								<h2 style="word-spacing: 0.5em">
+								<a href="img/Computer_Vision_for_Railroad_Asset_Detection.pdf"><i class="fa fa-sticky-note"></i></a>
+
+								<a href="https://www.dropbox.com/sh/31haxfnn7c807f7/AAAui9ItaPF0Tn7t77bFmVcUa?dl=0"><i class="fa fa-youtube-play"></i></a>
+								</h2>
+							</div>
+						</div>
+					</div>
+
+					<!-- Project block -->
+					<div class="row">
+						<div class="col-lg-6 project-left">
+							<div class="single-project pt-50"> 
+								<h4 class="pb-30"><a href="#">AWS DeepRacer</a></h4>
+								<p>
+									The AWS DeepRacer was developed for the research of deep reinforcement learning, however the performance is very limited with training results from the built-in models and variants. To improve the performance of the AWS DeepRacer for tracking trajectories with predefined markers, we explore the viability of utilizing other controllers.
+								</p>
+								<p>
+									We implemented a proportional controller and MPC on the DeepRacer car. Due to the limited time for this course project, we have implemented a proportional controller to the on-board computer and simulated MPC for tracking a spline trajectory.
+								</p>
+
+								<h2 style="word-spacing: 0.5em">
+								<a href="https://github.com/Junzeng-x14/AWS-DeepRacer"><i class="fa fa-github"></i></a>
+								<a href="https://github.com/Junzeng-x14/AWS-DeepRacer/blob/master/EECS_206b_DeepRacer_Control.pdf"><i class="fa fa-sticky-note"></i></a>
+								<a href="https://www.youtube.com/watch?v=Y1yNNoQiFFk"><i class="fa fa-youtube-play"></i></a>
+								</h2>
+							</div>
+						</div>
+						<div class="col-lg-6 project-right">
+							<div class="single-project pt-50">
+								<img class="img-fluid" src="img/deepracer.png" alt="">
+							</div>						
+						</div>
+					</div>
+
+					<!-- Project block -->
+					<div class="row">
+						<div class="col-lg-6 project-left">
+							<div class="single-project pt-50">
+								<img class="img-fluid" src="img/nlp.png" alt="">
+							</div>						
+						</div>
+						<div class="col-lg-6 project-right">
+							<div class="single-project pt-50"> 
+								<h4 class="pb-30"><a href="#">Gender Bias in Neural Pronoun Resolution Models</a></h4>
+								<p>
+									Pronoun resolutions is the task of linking a pronoun to the correct noun. We find that pre-trained state-of-the-art neural models tend to be biased. We show that one of most commonly used dataset for training coreference resolution models has a substantial bias towards male entities, which causes models to perform better on male examples. Since this can lead to discrimination for e.g. job applicants, we are motivated to highlight the problem and explore methods to mitigate this gender bias. We find that using gender neutral word embeddings such as the Debiased GoogleNews embeddings or the Word Dependency embeddings can lower the bias considerably in the model predictions.
+								</p>
+								<h2 style="word-spacing: 0.5em">
+								<a href="https://github.com/FrederikWarburg/NeuralCoref"><i class="fa fa-github"></i></a>
+								<a href="https://github.com/FrederikWarburg/NeuralCoref/blob/master/INFO_256__Gender_Pronouns__Final_report_.pdf"><i class="fa fa-sticky-note"></i></a>
+								</h2>
+							</div>
+						</div>
+					</div>
+
+					<!-- Project block -->
+					<div class="row">
+						<div class="col-lg-6 project-left">
+							<div class="single-project pt-50"> 
+								<h4 class="pb-30"><a href="#">EKF SLAM for eye wear (Bsc. Thesis)</a></h4>
+								<p>
+									The objective of this thesis is to adapt and test how well an open source SLAM implementation works with data recorded from the Tobii Pro Glasses 2. The report investigates all aspects of the Extended Kalman Filter (EKF) SLAM method for data recorded with the Tobii Pro Glasses 2.
+								</p>
+								<h2 style="word-spacing: 0.5em">
+								<a href="img/Bachelor_thesis.pdf"><i class="fa fa-sticky-note"></i></a>
+								</h2>
+							</div>
+						</div>
+						<div class="col-lg-6 project-right">
+							<div class="single-project pt-50">
+								<img class="img-fluid" src="img/Tobiiglasses.png" alt="">
+							</div>						
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- End project Area -->
+
+
+
+			<!-- start footer Area -->		
+			<footer class="footer-area section-gap">
+				<div class="container">
+					<div class="row">						
+						<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+							<div class="single-footer-widget">
+								<h6>Connect</h6>
+								<div class="footer-social d-flex align-items-center">
+								  <a href="http://github.com/frederikwarburg"><i class="fa fa-github"></i></a>
+								  <a href="mailto:frewar1905@gmail.com"><i class="fa fa-envelope"></i></a>
+								  <a href="http://linkedin.com/in/frederikwarburg"><i class="fa fa-linkedin"></i></a>
+								  <a href="https://scholar.google.com/citations?user=0Ozzy4IAAAAJ&hl=da"><i class="fa fa-google-plus"></i></a>
+								</div>
+							</div>
+						</div>							
+					</div>
+				</div>
+			</footer>	
+			<!-- End footer Area -->			
+
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>
+			<script src="js/parallax.min.js"></script>			
+			<script src="js/owl.carousel.min.js"></script>			
+			<script src="js/jquery.sticky.js"></script>
+
+			<script src="js/main.js"></script>	
+		</body>
+	</html>
