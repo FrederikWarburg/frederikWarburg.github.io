@@ -44,8 +44,8 @@
 						    	<li><a href="index.html">Home</a></li>
 								<li><a href="about.html">About</a></li>
 								<li><a href="publications.html">Publications</a></li>
-								<li><a href="projects.html">Projects</a></li>
-								<li><a href="media.html">Media</a></li>	
+								<!--<li><a href="projects.html">Projects</a></li>-->
+								<!--<li><a href="media.html">Media</a></li>	-->
 						    </ul>
 						  </div>						
 					</div>
@@ -58,185 +58,221 @@
 				<div class="container">	
 					<div class="container mx-auto text-black pt-40 pb-60">	
 						<h3 style="text-align: center">Publications</h3>
+
+						<h5 style="text-align: center"> Below is a list of publications I have co-authored. For bibliometrics, see <a href="https://scholar.google.com/citations?user=0Ozzy4IAAAAJ&hl=da"> Google Scholar</a>.
+
+						</h5>
 					</div>
+
+					<!-- Project block -->
+					<div class="row">
+						<div class="col-xs-10 col-sm-4 col-md-4">
+							<a class="thumbnail">
+								<img class="img-fluid" src="img/lae.png" alt="">
+							</a>
+						</div>
+						<div class="col-xs-12 col-sm-8 col-md-8">
+							<h4> Laplacian Autoencoders for Learning Stochastic Representations </h4>
+							<p> Marco Miani*, Frederik Warburg*, Pablo Moreno-Munñoz, Nicke Skafte Detlefsen and Søren Hauberg </p>
+							<p> * denotes equal contribution </p>
+							<h2>
+								<a style="color: black" href="INSERT LINK"><i class="fa fa-sticky-note"></i></a>
+								
+								<a style="color: black" href="https://github.com/FrederikWarburg/LaplaceAE"><i class="fa fa-github"></i></a>
+							</h2>
+
+							<!--<p> Published in <i> CV4ARVR <i> 2022-->
+						</div>
+					</div>
+					<br>
+
+					<!-- Project block -->
+					<div class="row">
+						<div class="col-xs-10 col-sm-4 col-md-4">
+							<a class="thumbnail">
+								<img class="img-fluid" src="img/sparseformer.png" alt="">
+							</a>
+						</div>
+						<div class="col-xs-12 col-sm-8 col-md-8">
+							<h4> SparseFormer: Attention-based Depth Completion Network </h4>
+							<p> Frederik Warburg, Michael Ramamonjisoa, Manuel López-Antequera </p>
+
+							<h2>
+								<a style="color: black" href="https://arxiv.org/pdf/2206.04557.pdf"><i class="fa fa-sticky-note"></i></a>
+							</h2>
+
+							<p> Published in <i> CV4ARVR <i> 2022
+						</div>
+					</div>
+					<br>
 
 
 					<!-- Project block -->
 					<div class="row">
-						<div class="col-lg-6 project-left">
-							<div class="single-project"> 
-								<h4 class="pb-20"><a href="#">Self-Supervised Depth Completion for Active Stereo</a></h4>
-
-								<p>
-									Active stereo systems are widely used in the
-									robotics industry. These depth sensors, however, suffer from stereo artefacts
-									and do not provide dense depth estimates. In this work, we
-									present the first self-supervised depth completion method for
-									active stereo systems that predicts accurate dense depth maps.
-									Our system leverages a feature-based visual inertial SLAM
-									system to produce motion estimates and accurate (but sparse)
-									3D landmarks. The 3D landmarks are used both as model
-									input and as supervision during training. The motion estimates
-									are used in our novel reconstruction loss that relies on a
-									combination of passive and active stereo frames, resulting in
-									significant improvements in textureless areas that are common
-									in indoor environments. Due to the non-existence of publicly
-									available active stereo datasets, we release a real dataset
-									together with additional information for a publicly available
-									synthetic dataset (Tartanair) needed for active depth
-									completion and prediction. Through rigorous evaluations we
-									show that our method outperforms state of the art on both
-									datasets. Additionally we show how our method obtains more
-									complete, and therefore safer, 3D maps when used in a robotic
-									platform
-								</p>
-
-								<p>
-									Frederik Warburg, Daniel Hernandez-Juarez, Juan Tarrio, Alexander Vakhitov, Ujwal Bonde, Pablo F. Alcantarilla
-								</p>
-
-								<h2 style="word-spacing: 0.5em">
-
-								<a href="https://arxiv.org/pdf/2110.03234.pdf"><i class="fa fa-sticky-note"></i></a>
-
-								<a href="https://www.youtube.com/watch?v=gIaieTnd98U&ab_channel=FrederikWarburg"><i class="fa fa-youtube-play"></i></a>
-
-								</h2>
-							</div>
+						<div class="col-xs-10 col-sm-4 col-md-4">
+							<a class="thumbnail">
+								<video class="img-fluid" autoplay muted plasinline loop>
+									<source src="img/fern_tree_trunk_manipulation_strawberry_rgb.mp4" type="video/mp4">
+								</video>
+							</a>
 						</div>
-						<div class="col-lg-6 project-right ">
-							<div class="single-project">
+						<div class="col-xs-12 col-sm-8 col-md-8">
+							<h4> Volumetric Disentanglement for 3D Scene Manipulation </h4>
+							<p> Sagie Benaim, Frederik Warburg, Peter Christensen, Serge Belongie </p>
+
+							<h2>
+								<a style="color: black" href="https://arxiv.org/abs/2206.02776"><i class="fa fa-sticky-note"></i></a>
+
+								<a style="color: black" href="https://sagiebenaim.github.io/volumetric-disentanglement/"><i class="fa fa-paperclip"></i></a>
+							</h2>
+
+							<!--<p> Published in <i> RAL (IROS) <i> 2022 -->
+						</div>
+					</div>
+					<br>
+
+
+					<!-- Project block -->
+					<div class="row">
+						<div class="col-xs-10 col-sm-4 col-md-4">
+							<a class="thumbnail">
+								<img class="img-fluid" src="img/dag.png">
+							</a>
+						</div>
+						<div class="col-xs-12 col-sm-8 col-md-8">
+							<h4> Danish Airs and Grounds: A dataset for aerial-to-street-level place recongition and localization </h4>
+							<p> Andrea Vallone*, Frederik Warburg*, Hans Hansen, Søren Hauberg, Javier Civera </p>
+							<p> * denotes equal contribution </p>
+							<h2>
+								<a style="color: black" href="https://arxiv.org/pdf/2202.01821.pdf"><i class="fa fa-sticky-note"></i></a>
+
+								<a style="color: black" href="https://github.com/FrederikWarburg/Place-Recognition-Pytorch-Lightning"><i class="fa fa-github"></i></a>
+
+								<a style="color: black" href="https://drive.google.com/drive/folders/1KGJEt6MzyH7EPDwd_5Ee5JYtRimevWoM"><i class="fa fa-database"></i></a>
+
+								<a style="color: black" href="https://frederikwarburg.github.io/DAG/"><i class="fa fa-paperclip"></i></a>
+							</h2>
+
+							<p> Published in <i> RAL (IROS) <i> 2022 
+						</div>
+					</div>
+					<br>
+
+
+					<!-- Project block -->
+					<div class="row">
+						<div class="col-xs-10 col-sm-4 col-md-4">
+							<a class="thumbnail">
 								<img class="img-fluid" src="img/ann_teaser_59.png" alt="">
-							</div>						
+							</a>
 						</div>
-					</div>
+						<div class="col-xs-12 col-sm-8 col-md-8">
+							<h4> Self-Supervised Depth Completion for Active Stereo </h4>
+							<p> Frederik Warburg, Daniel Hernandez-Juarez, Juan Tarrio, Alexander Vakhitov, Ujwal Bonde, Pablo F. Alcantarilla </p>
 
+							<h2><a style="color: black" href="https://arxiv.org/pdf/2110.03234.pdf"><i class="fa fa-sticky-note"></i></a>
 
-					<!-- Project block -->
-					<div class="row">
-						<div class="col-lg-6 project-left">
-							<div class="single-project pt-50">
-								<img class="img-fluid" src="img/bayesian-triplet-loss.png" alt="">
-							</div>						
-						</div>
-						<div class="col-lg-6 project-right">
-							<div class="single-project pt-50"> 
-								<h4 class="pb-30"><a href="#">Bayesian Triplet Loss: Uncertainty Quantification in Image Retrieval</a></h4>
+							<a style="color: black" href="https://www.youtube.com/watch?v=gIaieTnd98U&ab_channel=FrederikWarburg"><i class="fa fa-youtube-play"></i></a>
+							</h2>
 
-								<p>
-									Uncertainty quantification in image retrieval is crucial for downstream decisions, yet it remains a challenging and largely unexplored problem. Current methods for estimating uncertainties are poorly calibrated, computationally expensive, or based on heuristics. We present a new method that views image embeddings as stochastic features rather than deterministic features. Our two main contributions are (1) a likelihood that matches the triplet constraint and that evaluates the probability of an anchor being closer to a positive than a negative; and (2) a prior over the feature space that justifies the conventional l2 normalization. To ensure computational efficiency, we derive a variational approximation of the posterior, called the Bayesian triplet loss, that produces state-of-the-art uncertainty estimates and matches the predictive performance of current state-of-the-art methods.
-								</p>
-
-								<p>
-									Frederik Warburg, Martin Jørgensen, Javier Civera and Søren Hauberg
-								</p>
-
-								<h2 style="word-spacing: 0.5em">
-
-								<a href="https://arxiv.org/abs/2011.12663"><i class="fa fa-sticky-note"></i></a>
-
-								<a href="https://www.youtube.com/watch?v=a6leijptAOo&ab_channel=FrederikWarburg"><i class="fa fa-youtube-play"></i></a>
-
-								<a href="img/BayesianTripletLoss.pdf"><i class="fa fa-object-group"></i></a>
-
-								</h2>
-							</div>
+							<p> Published in <i> RAL (ICRA) <i> 2022 
 						</div>
 					</div>
 
 					<!-- Project block -->
+					<br>
 					<div class="row">
-						<div class="col-lg-6 project-left">
-							<div class="single-project"> 
-								<h4 class="pb-20"><a href="#">Probabilistic Spatial Transformers for Bayesian Data Augmentation</a></h4>
-
-								<p>
-									High-capacity models require vast amounts of data, and data augmentation is a common remedy when this resource is limited. Standard augmentation techniques apply small hand-tuned transformations to existing data, which is a brittle process that realistically only allows for simple transformations. We propose a Bayesian interpretation of data augmentation where the transformations are modelled as latent variables to be marginalized, and show how these can be inferred variationally in an end-to-end fashion. This allows for significantly more complex transformations than manual tuning, and the marginalization implies a form of test-time data augmentation. The resulting model can be interpreted as a probabilistic extension of spatial transformer networks. Experimentally, we demonstrate improvements in accuracy and uncertainty quantification in image and time series classification tasks.
-								</p>
-
-								<p>
-									Pola Schwöbel, Frederik Warburg, Martin Jørgensen, Kristoffer H. Madsen and Søren Hauberg
-								</p>
-
-								<h2 style="word-spacing: 0.5em">
-								<a href="INSERT_GITHUB_LINK"><i class="fa fa-github"></i></a>
-
-								<a href="https://arxiv.org/abs/2004.03637"><i class="fa fa-sticky-note"></i></a>
-								</h2>
-							</div>
-						</div>
-						<div class="col-lg-6 project-right ">
-							<div class="single-project">
+						<div class="col-xs-10 col-sm-4 col-md-4">
+							<a class="thumbnail">
 								<img class="img-fluid" src="img/pstn.png" alt="">
-							</div>						
+							</a>
+						</div>
+						<div class="col-xs-12 col-sm-8 col-md-8">
+							<h4> Probabilistic Spatial Transformer Networks </h4>
+							<p> Pola Schwöbel, Frederik Warburg, Martin Jørgensen, Kristoffer H. Madsen and Søren Hauberg </p>
+
+							<h2>
+								<a style="color: black" href="INSERT_GITHUB_LINK"><i class="fa fa-github"></i></a>
+
+								<a style="color: black" href="https://arxiv.org/abs/2004.03637"><i class="fa fa-sticky-note"></i></a>
+							</h2>
+
+							<p> Published in <i> UAI <i> 2022 
 						</div>
 					</div>
 
 					<!-- Project block -->
+					<br>
 					<div class="row">
-						<div class="col-lg-6 project-left">
-							<div class="single-project pt-50">
+						<div class="col-xs-10 col-sm-4 col-md-4">
+							<a class="thumbnail">
+								<img class="img-fluid" src="img/bayesian-triplet-loss.png" alt="">
+							</a>
+						</div>
+						<div class="col-xs-12 col-sm-8 col-md-8">
+							<h4> Bayesian Triplet Loss: Uncertainty Quantification in Image Retrieval </h4>
+							<p> Frederik Warburg, Martin Jørgensen, Javier Civera and Søren Hauberg </p>
+
+							<h2>
+								<a style="color: black" href="https://arxiv.org/abs/2011.12663"><i class="fa fa-sticky-note"></i></a>
+
+								<a style="color: black" href="https://www.youtube.com/watch?v=a6leijptAOo&ab_channel=FrederikWarburg"><i class="fa fa-youtube-play"></i></a>
+
+								<a style="color: black" href="img/BayesianTripletLoss.pdf"><i class="fa fa-object-group"></i></a>
+							</h2>
+
+							<p> Published in <i> ICCV <i> 2021 
+						</div>
+					</div>
+
+					<!-- Project block -->
+					<br>
+					<div class="row">
+						<div class="col-xs-10 col-sm-4 col-md-4">
+							<a class="thumbnail">
 								<img class="img-fluid" src="img/9217-teaser.gif" alt="">
-							</div>						
+							</a>
 						</div>
-						<div class="col-lg-6 project-right">
-							<div class="single-project pt-50"> 
-								<h4 class="pb-30"><a href="#">Mapillary Street-Level Sequences: A Dataset for Lifelong Place Recognition</a></h4>
+						<div class="col-xs-12 col-sm-8 col-md-8">
+							<h4> Mapillary Street-Level Sequences: A Dataset for Lifelong Place Recognition </h4>
+							<p> Frederik Warburg, Søren Hauberg, Manuel Lopez-Antequera, Pau Gargallo, Yubin Kuang and Javier Civera </p>
 
-								<p> Accepted Computer Vision and Pattern Recognition (CVPR) 2020 with Oral Presentation. Check out the presentation in the video below or download the dataset via our github repo! </p>
-								<p>
-									We contribute with Mapillary Street-Level Sequences (MSLS), a large dataset for place recognition from image sequences. It contains more than 1.6 million images curated from the Mapillary collaborative mapping platform. The dataset is orders of magnitude larger than current data sources, and reflects the diversities of true lifelong learning. It features images from 30 major cities across six continents, hundreds of distinct cameras, and substantially different viewpoints and capture times, spanning all seasons over a nine-year period. All images are geo-located with GPS and compass, and feature high-level attributes such as road type. We propose a set of benchmark tasks designed to push state-of-the-art performance and provide baseline studies. We show that current state-of-the-art methods still have a long way to go, and that the lack of diversity in existing datasets has prevented generalization to new environments. 
-								</p>
+							<h2>
+								<a style="color: black" href="https://github.com/mapillary/mapillary_sls"><i class="fa fa-github"></i></a>
 
-								<p>
-									Frederik Warburg, Søren Hauberg, Manuel Lopez-Antequera, Pau Gargallo, Yubin Kuang and Javier Civera
-								</p>
+								<a style="color: black" href="https://www.mapillary.com/dataset/citation/places"><i class="fa fa-sticky-note"></i></a>
 
-								<h2 style="word-spacing: 0.5em">
-								<a href="https://github.com/mapillary/mapillary_sls"><i class="fa fa-github"></i></a>
+								<a style="color: black" href="https://www.youtube.com/watch?v=GcDGo45BXL4&t=232s&ab_channel=ComputerVisionFoundationVideos"><i class="fa fa-youtube-play"></i></a>
 
-								<a href="https://www.mapillary.com/dataset/citation/places"><i class="fa fa-sticky-note"></i></a>
+								<a style="color: black" href="img/MSLS_Poster.pdf"><i class="fa fa-object-group"></i></a>
+							</h2>
 
-								<a href="https://www.youtube.com/watch?v=GcDGo45BXL4&t=232s&ab_channel=ComputerVisionFoundationVideos"><i class="fa fa-youtube-play"></i></a>
-
-								<a href="img/MSLS_Poster.pdf"><i class="fa fa-object-group"></i></a>
-
-								</h2>
-							</div>
+							<p> Published in <i> CVPR <i> 2020 (oral) 
 						</div>
 					</div>
-
-					<br>
-					<br>
-					<br>
 
 					<!-- Project block -->
+					<br>
 					<div class="row">
-						<div class="col-lg-6 project-left">
-							<div class="single-project"> 
-								<h4 class="pb-20"><a href="#">Intensity Mapping for Mask Projection based Photopolymerization</a></h4>
-								<p> Published at "2018 ASPE and euspen Summer Topical Meeting: Advancing Precision in Additive Manufacturing"</p>
-								<p>
-									Currently, the industrial de-facto assumption for photopolymerizationsystems is that the ultraviolet light of the mask-projection is uniformly distributed. This paper presents a method for measuring this intensity field or distribution of this mask-projection. By measuring the light distribution, it is shown that the emitted light is not uniformly distributed and thus the current assumption is invalid. Furthermore, a methodology for obtaining a mask to compensate for the irregularities of the projected light, that will ensure an even and controlled exposure of the photopolymer, is presented. Accordingly, it is demonstrated that this mask compensates for such irregularities, making the light projection significantly more uniformly distributed.
-								</p>
-
-								<p>
-									Frederik Warburg, Macarena M. Ribo, Andrea Luongo, Anna H. Danielak, and David B. Pedersen
-								</p>
-
-								<h2 style="word-spacing: 0.5em">
-								<a href="http://github.com/frederikwarburg/relative_normalization_methods"><i class="fa fa-github"></i></a>
-
-								<a href="https://github.com/FrederikWarburg/relative_normalization_methods/blob/master/Intensity_Mapping_for_Mask_Projection_based_Photopolymerization.pdf"><i class="fa fa-sticky-note"></i></a>
-								</h2>
-							</div>
-						</div>
-						<div class="col-lg-6 project-right ">
-							<div class="single-project">
+						<div class="col-xs-10 col-sm-4 col-md-4">
+							<a class="thumbnail">
 								<img class="img-fluid" src="img/IntensityPaper.png" alt="">
-							</div>						
+							</a>
+						</div>
+						<div class="col-xs-12 col-sm-8 col-md-8">
+							<h4> Intensity Mapping for Mask Projection based Photopolymerization </h4>
+							<p> Frederik Warburg, Macarena M. Ribo, Andrea Luongo, Anna H. Danielak, and David B. Pedersen </p>
+
+							<h2>
+								<a style="color: black" href="http://github.com/frederikwarburg/relative_normalization_methods"><i class="fa fa-github"></i></a>
+
+								<a style="color: black" href="https://github.com/FrederikWarburg/relative_normalization_methods/blob/master/Intensity_Mapping_for_Mask_Projection_based_Photopolymerization.pdf"><i class="fa fa-sticky-note"></i></a>
+							</h2>
+
+							<p> Published in <i> ASPE and euspen Summer Topical Meeting: Advancing Precision in Additive Manufacturing <i> 2018 
 						</div>
 					</div>
+					
 			</section>
 			<!-- End project Area -->
 
